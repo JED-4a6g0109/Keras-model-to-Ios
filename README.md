@@ -71,7 +71,7 @@ coremltools                        3.0b6<br>
 
 然後再Model Class 點自己load model旁邊有個箭頭 點下去 Xcode會自動產生 Model Class<br>
 這樣就大功告成了，接下來就是看自己如何用Swift調用model<br>
-#參考文獻
+# 參考文獻
 [1]https://github.com/keras-team/keras/issues/13364<br>
 [2]https://stackoverflow.com/questions/58028976/typeerror-unexpected-keyword-argument-passed-to-optimizer-learning-rate<br>
 [3]https://www.iowncode.com/ios-cat-and-dog-image-classifier-with-coreml-and-keras/
