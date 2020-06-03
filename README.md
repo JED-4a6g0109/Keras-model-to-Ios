@@ -1,6 +1,13 @@
 # Keras-model-to-Ios
 
-# Mac(只能用Mac把Keras model to CoreML model)
+## 訓練資料
+https://www.kaggle.com/moltean/fruits<br>
+
+## Keras traing model
+請參照keras_model&CoreML檔案
+訓練完後能save和load model就OK了
+
+## Mac(只能用Mac把Keras model to CoreML model)
 要注意windwon是不能轉的因為pip install coremltools==3.0b6載不到，用別版也是轉失敗
 下載Anaconda Navigator python 2.7版
 因為CoreML不支援python3最多支援2.7
@@ -23,7 +30,7 @@ TypeError: Unexpected keyword argument passed to optimizer: learning_rate
 當初用compile = False能轉成供但在xcode調用model會有問題，後來更新至2.3.1就解決了...這邊坑蠻大的如果有出現這問題請升級keras
 https://github.com/keras-team/keras/issues/13364
 https://stackoverflow.com/questions/58028976/typeerror-unexpected-keyword-argument-passed-to-optimizer-learning-rate
-# keras model to CoreML model code
+## keras model to CoreML model code
     import coremltools
     from keras.models import load_model
     model = load_model('cnn_model1.h5')
@@ -35,7 +42,7 @@ https://stackoverflow.com/questions/58028976/typeerror-unexpected-keyword-argume
     coreml_model.save('xx.mlmodel')
  如果轉換成功後會多一個xx.mlmodel檔案
  
- # xocde use mlmodel
+ ## xocde use mlmodel
  開啟Xcode 把xx.mlmodel移至Xcode專案裡面
  移進去後點選xx.mlmodel查看訊息
  <table>
