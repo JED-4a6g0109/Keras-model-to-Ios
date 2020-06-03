@@ -28,14 +28,13 @@ TypeError: Unexpected keyword argument passed to optimizer: learning_rate<br>
 
 ### 查看版本
 都下載完後打pip list查看版本<br>
-tensorboard                        1.13.1<br>                 
-tensorflow                         1.13.1<br>                 
+tensorboard                        1.13.1<br>
+tensorflow                         1.13.1<br>
 tensorflow-estimator               1.13.0<br>
-Keras                              2.3.1<br>                  
-Keras-Applications                 1.0.8<br>                  
-Keras-Preprocessing                1.1.2<br> 
-coremltools                        3.0b6<br> 
-
+Keras                              2.3.1<br>
+Keras-Applications                 1.0.8<br>
+Keras-Preprocessing                1.1.2<br>
+coremltools                        3.0b6<br>
 ## keras model to CoreML model code
     import coremltools
     from keras.models import load_model
