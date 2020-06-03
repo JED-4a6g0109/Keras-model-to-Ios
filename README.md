@@ -49,7 +49,7 @@ https://stackoverflow.com/questions/58028976/typeerror-unexpected-keyword-argume
   <tr>
     <td>Outputs</td>
     <td>MultiArray(Double 11)</td>
-    <td></td>
+    <td>'Apple Red 2, Apricot, Banana Lady Finger, Cantaloupe 1, Carambula,Cherry 2,Corn, Ginger Root, Strawberry Wedge,Tomato Cherry Red,Watermelon'</td>
   </tr>
     
 
