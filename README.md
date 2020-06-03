@@ -3,12 +3,19 @@
 ## (1)訓練資料
 https://www.kaggle.com/moltean/fruits<br>
 
-## (2)Keras traing model
+## (2)Keras set GPU
+如果顯卡是NVIDIA可設置GPU訓練
+請參考https://github.com/JEDEngineer/Tensorflow-Keras
+
+如果沒有GPU不用擔心還是能用CPU訓練
+
+## (2-1)Keras traing model
 請參照keras_model&CoreML檔案<br>
 如果是Mac直接全部執行<br>
 如果是windwon執行至 model pred那段<br>
 後面CoreML是需要在Mac下轉換<br>
 訓練完後能save和load model就OK了<br>
+
 
 ## (3)Mac python環境(只能用Mac把Keras model to CoreML model)
 要注意windwon是不能轉的因為pip install coremltools==3.0b6載不到，用別版也是轉失敗<br>
