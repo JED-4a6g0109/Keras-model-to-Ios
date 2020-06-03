@@ -74,3 +74,4 @@ coremltools                        3.0b6<br>
 #參考文獻
 [1]https://github.com/keras-team/keras/issues/13364<br>
 [2]https://stackoverflow.com/questions/58028976/typeerror-unexpected-keyword-argument-passed-to-optimizer-learning-rate<br>
+[3]https://www.iowncode.com/ios-cat-and-dog-image-classifier-with-coreml-and-keras/
