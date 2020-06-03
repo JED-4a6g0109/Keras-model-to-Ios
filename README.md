@@ -69,8 +69,6 @@ coremltools                        3.0b6<br>
     <td>'Apple Red 2, Apricot, Banana Lady Finger, Cantaloupe 1, Carambula,Cherry 2,Corn, Ginger Root, Strawberry Wedge,Tomato Cherry Red,Watermelon'</td>
     </tr>
 </table>
-![mlmodel](https://github.com/JEDEngineer/Keras-model-to-Ios/blob/master/mlmodel.jpg)  
-
 
 然後再Model Class 點自己load model旁邊有個箭頭 點下去 Xcode會自動產生 Model Class<br>
 這樣就大功告成了，接下來就是看自己如何用Swift調用model<br>
