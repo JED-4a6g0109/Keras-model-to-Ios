@@ -42,20 +42,16 @@ https://stackoverflow.com/questions/58028976/typeerror-unexpected-keyword-argume
     <td>Description</td>
   </tr>
   <tr>
-    <td>1</td>
-    <td>iPhone 5</td>
-    <td>iPhone 5是由E網路。</td>
+    <td>Inputs(image)</td>
+    <td>image(Color 64 X 64)</td>
+    <td>64*64 image</td>
   </tr>
   <tr>
-    <td>2</td>
-    <td>iPhone 5</td>
-    <td>iPhone 5是由E網路。</td>
+    <td>Outputs</td>
+    <td>MultiArray(Double 11)</td>
+    <td></td>
   </tr>
     
-   <tr>
-    <td>3</td>
-    <td>iPhone 5</td>
-    <td>iPhone 5是由E網路。</td>
-  </tr>
+
   
 </table>
