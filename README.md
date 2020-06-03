@@ -80,7 +80,7 @@ coremltools                        3.0b6<br>
 然後再Model Class 點自己load model旁邊有個箭頭 點下去 Xcode會自動產生 Model Class<br>
 這樣就大功告成了，接下來就是看自己如何用Swift調用model<br>
 ## iOSCoreMLImageClassifier file
-如果懶得用可以iOSCoreMLImageClassifier開啟xocde匯入自己mlmodel，記得input image要改成自己的大小與label位置，改完後就完成了。
+iOSCoreMLImageClassifier開啟xocde匯入自己mlmodel，記得input image要改成自己的大小與label位置，改完後就完成了。
 
 # 參考文獻
 [1]https://github.com/keras-team/keras/issues/13364<br>
