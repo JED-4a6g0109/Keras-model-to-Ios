@@ -31,10 +31,6 @@ https://stackoverflow.com/questions/58028976/typeerror-unexpected-keyword-argume
  # xocde use mlmodel
  開啟Xcode 把xx.mlmodel移至Xcode專案裡面
  移進去後點選xx.mlmodel查看訊息
- 可以看到Name Type Description
- Name 分別 Inputs output 
- Type 分別 Image(Color 64*64) 
- 
  <table>
   <tr>
     <td>Name</td>
@@ -50,8 +46,8 @@ https://stackoverflow.com/questions/58028976/typeerror-unexpected-keyword-argume
     <td>Outputs</td>
     <td>MultiArray(Double 11)</td>
     <td>'Apple Red 2, Apricot, Banana Lady Finger, Cantaloupe 1, Carambula,Cherry 2,Corn, Ginger Root, Strawberry Wedge,Tomato Cherry Red,Watermelon'</td>
-  </tr>
-    
-
-  
+    </tr>
 </table>
+
+然後再Model Class 點自己load model旁邊有個箭頭 點下去 Xcode會自動產生 Model Class
+這樣就大功告成了，接下來就是看自己如何用Swift調用model
