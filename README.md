@@ -13,8 +13,7 @@
     
 這邊keras 網路上查是說用2.2.4，但後轉換成CoreML model的時候出現錯誤
 TypeError: Unexpected keyword argument passed to optimizer: learning_rate
-
-後來更新至2.3.1就解決了...這邊坑蠻大的如果有出現這問題請升級keras
+當初用compile = False能轉成供但在xcode調用model會有問題，後來更新至2.3.1就解決了...這邊坑蠻大的如果有出現這問題請升級keras
 https://github.com/keras-team/keras/issues/13364
 https://stackoverflow.com/questions/58028976/typeerror-unexpected-keyword-argument-passed-to-optimizer-learning-rate
 # keras model to CoreML model code
