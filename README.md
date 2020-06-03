@@ -45,7 +45,8 @@ coremltools                        3.0b6<br>
     coreml_model.input_description['image'] = '64*64 image'
     coreml_model.output_description['output'] = 'Apple Red 2, Apricot, Banana Lady Finger, Cantaloupe 1, Carambula,Cherry 2,Corn, Ginger   Root, Strawberry Wedge,Tomato Cherry Red,Watermelon'
     coreml_model.save('xx.mlmodel')
-    
+ 這邊convert 參數請參考[4]<br>
+ 可以自行定義model還蠻方便的<br>
  如果轉換成功後會多一個xx.mlmodel檔案<br>
  
  ## (5)xocde use mlmodel
