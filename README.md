@@ -6,6 +6,13 @@
 因為CoreML不支援python3最多支援2.7
 下載完後開啟 Anaconda terminal
 安裝tensorflow 1.13.1 keras 2.2.4 & 2.3.1 coremltools 3.0b6
+tensorboard                        1.13.1                 
+tensorflow                         1.13.1                 
+tensorflow-estimator               1.13.0
+Keras                              2.3.1                  
+Keras-Applications                 1.0.8                  
+Keras-Preprocessing                1.1.2 
+coremltools                        3.0b6                  
 
     python2 -m pip install --upgrade pip
     python2 -m pip install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.13.1-py2-none-any.whl
