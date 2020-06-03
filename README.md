@@ -69,7 +69,7 @@ coremltools                        3.0b6<br>
     <td>'Apple Red 2, Apricot, Banana Lady Finger, Cantaloupe 1, Carambula,Cherry 2,Corn, Ginger Root, Strawberry Wedge,Tomato Cherry Red,Watermelon'</td>
     </tr>
 </table>
-![mlmodel](https://github.com/JEDEngineer/Keras-model-to-Ios/blob/master/%E6%88%AA%E5%9C%96%202020-06-03%20%E4%B8%8B%E5%8D%881.48.41.png)  
+![mlmodel](https://github.com/JEDEngineer/Keras-model-to-Ios/blob/master/%E6%88%AA%E5%9C%96%202020-06-03%20%E4%B8%8B%E5%8D%881.48.41.png?raw=true)  
 
 ![near](https://github.com/JEDEngineer/pymongodb/blob/master/126%E5%85%AC%E5%B0%BA.jpg)  
 
