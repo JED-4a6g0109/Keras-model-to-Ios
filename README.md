@@ -56,7 +56,7 @@ coremltools                        3.0b6<br>
  可以自行定義model還蠻方便的<br>
  如果轉換成功後會多一個xx.mlmodel檔案<br>
  
- ## (5)xocde use mlmodel
+ ## (5)xocde use mlmodel(請參照mlmodel.jpg)
  開啟Xcode 把xx.mlmodel移至Xcode專案裡面<br>
  移進去後點選xx.mlmodel查看訊息<br>
  <table>
